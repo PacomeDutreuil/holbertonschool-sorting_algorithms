@@ -1,0 +1,4 @@
+.vscode-server/
+.vscode/
+bubble
+*.o
