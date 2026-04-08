@@ -2,8 +2,8 @@
 
 /**
  * swap - swaps two integers
- * @a: first int
- * @b: second int
+ * @a: first integer
+ * @b: second integer
  */
 void swap(int *a, int *b)
 {
@@ -16,10 +16,10 @@ void swap(int *a, int *b)
 
 /**
  * partition - Lomuto partition scheme
- * @array: array
- * @low: start index
- * @high: end index
- * @size: size of array
+ * @array: array of integers
+ * @low: starting index
+ * @high: ending index
+ * @size: size of the array
  *
  * Return: partition index
  */
@@ -53,9 +53,9 @@ int partition(int *array, int low, int high, size_t size)
 
 /**
  * quick_sort_rec - recursive quick sort
- * @array: array
- * @low: start index
- * @high: end index
+ * @array: array of integers
+ * @low: starting index
+ * @high: ending index
  * @size: size of array
  */
 void quick_sort_rec(int *array, int low, int high, size_t size)
@@ -71,9 +71,9 @@ void quick_sort_rec(int *array, int low, int high, size_t size)
 }
 
 /**
- * quick_sort - sorts an array using quick sort
- * @array: array
- * @size: size
+ * quick_sort - sorts an array using quick sort algorithm
+ * @array: array of integers
+ * @size: size of array
  */
 void quick_sort(int *array, size_t size)
 {
